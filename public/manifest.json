@@ -1,0 +1,20 @@
+{
+  "short_name": "Lens Encrypted Messaging",
+  "name": "Lens Encrypted Messaging using Lit Protocol.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "android-chrome-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

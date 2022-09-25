@@ -1,0 +1,56 @@
+{
+  "name": "lens-encrypted-messaging",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/css": "^11.9.0",
+    "@rainbow-me/rainbowkit": "^0.4.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/user-event": "^13.5.0",
+    "@theme-ui/presets": "^0.14.6",
+    "@urql/exchange-auth": "^0.1.7",
+    "date-fns": "^2.28.0",
+    "ethers": "^5.6.6",
+    "graphql": "^16.5.0",
+    "lit-js-sdk": "^1.1.182",
+    "next": "12.1.6",
+    "omit-deep": "^0.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-modal": "^3.15.1",
+    "react-scripts": "4.0.3",
+    "rebass": "^4.0.7",
+    "theme-ui": "^0.14.6",
+    "urql": "^2.2.0",
+    "wagmi": "^0.5.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "cp ./patch/index.js ./node_modules/lit-js-sdk/build/; cp ./patch/index.js.map ./node_modules/lit-js-sdk/build/;"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-error-overlay": "^6.0.9"
+  }
+}
